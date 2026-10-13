@@ -108,7 +108,7 @@ export const landingImages = {
   formatStandard: {
     src: '/images/format-standard.jpg',
     label: 'Format standard — Bottega con degustazione',
-    alt: 'Esempio di bottega in format standard con area degustazione',
+    alt: 'Cantina di stagionatura con forme di formaggio sugli scaffali',
     focal: '50% 50%',
     ratio: '16:10',
     minWidth: 1200,
@@ -123,8 +123,8 @@ export const landingImages = {
   },
   finalCta: {
     src: '/images/cta-franchising-mugello.jpg',
-    label: 'CTA — Cantina di stagionatura',
-    alt: 'Cantina di stagionatura con forme di formaggio sugli scaffali',
+    label: 'CTA — Paesaggio del Mugello',
+    alt: 'Colline e campi del Mugello al tramonto',
     focal: '50% 55%',
     ratio: '21:9',
     minWidth: 2400,
