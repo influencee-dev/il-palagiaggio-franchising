@@ -68,7 +68,7 @@ export const landingImages = {
   formatGifts: {
     src: '/images/format-confezioni-regalo.jpg',
     label: 'Format — Confezioni regalo e corporate',
-    alt: 'Confezioni regalo gastronomiche Il Palagiaccio',
+    alt: 'Cesto regalo con formaggi, vini, pasta e conserve Il Palagiaccio',
     focal: '50% 50%',
     ratio: '4:5',
     minWidth: 1200,
@@ -84,7 +84,7 @@ export const landingImages = {
   productsDairy: {
     src: '/images/prodotti-latticini.jpg',
     label: 'Prodotti — Latte, yogurt e ricotte',
-    alt: 'Latte, yogurt e ricotte della filiera Il Palagiaccio',
+    alt: 'Bottiglie di latte fresco e bidone del latte',
     focal: '50% 50%',
     ratio: '1:1',
     minWidth: 1000,
@@ -92,7 +92,7 @@ export const landingImages = {
   productsPantry: {
     src: '/images/prodotti-specialita-toscane.jpg',
     label: 'Prodotti — Specialità toscane',
-    alt: 'Salumi, conserve, vini e oli selezionati',
+    alt: 'Formaggi sott’olio e confezioni artigianali Il Palagiaccio',
     focal: '50% 50%',
     ratio: '2:3',
     minWidth: 1200,
@@ -100,8 +100,8 @@ export const landingImages = {
   formatCompact: {
     src: '/images/format-ridotto.jpg',
     label: 'Format ridotto — Bottega compatta',
-    alt: 'Esempio di bottega in format ridotto',
-    focal: '50% 50%',
+    alt: 'Ingresso di una bottega Il Palagiaccio',
+    focal: '50% 30%',
     ratio: '16:10',
     minWidth: 1200,
   },
@@ -123,9 +123,9 @@ export const landingImages = {
   },
   finalCta: {
     src: '/images/cta-franchising-mugello.jpg',
-    label: 'CTA — Paesaggio del Mugello',
-    alt: 'Colline del Mugello al tramonto',
-    focal: '50% 60%',
+    label: 'CTA — Cantina di stagionatura',
+    alt: 'Cantina di stagionatura con forme di formaggio sugli scaffali',
+    focal: '50% 55%',
     ratio: '21:9',
     minWidth: 2400,
   },
