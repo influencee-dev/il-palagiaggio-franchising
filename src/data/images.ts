@@ -52,7 +52,7 @@ export const landingImages = {
   formatRetail: {
     src: '/images/format-vendita-dettaglio.jpg',
     label: 'Format — Interno bottega',
-    alt: 'Banco della bottega con formaggi freschi e stagionati',
+    alt: 'Banco della bottega con formaggi, salumi e specialità toscane',
     focal: '50% 50%',
     ratio: '4:5',
     minWidth: 1200,
@@ -116,7 +116,7 @@ export const landingImages = {
   support: {
     src: '/images/supporto-attivita-bottega.jpg',
     label: 'Supporto — Attività in bottega',
-    alt: 'Formazione e affiancamento in bottega con il team della Casa Madre',
+    alt: 'Addetta al banco con una forma di formaggio stagionato',
     focal: '50% 50%',
     ratio: '4:5',
     minWidth: 1600,

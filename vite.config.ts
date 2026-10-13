@@ -13,7 +13,15 @@ function siteUrl(url: string): Plugin {
 export default defineConfig(({ mode }) => {
   const env = loadEnv(mode, process.cwd(), 'VITE_');
   return {
-    plugins: [react(), tailwindcss(), siteUrl(env.VITE_SITE_URL ?? '')],
+    plugins: [
+      react(),
+      tailwindcss(),
+      // Senza VITE_SITE_URL usa il dominio di produzione fornito da Vercel in fase di build.
+      siteUrl(
+        env.VITE_SITE_URL ||
+          (process.env.VERCEL_PROJECT_PRODUCTION_URL ? `https://${process.env.VERCEL_PROJECT_PRODUCTION_URL}` : ''),
+      ),
+    ],
     build: {
       target: 'es2020',
       cssCodeSplit: false,
