@@ -124,8 +124,9 @@ export const landingImages = {
   finalCta: {
     src: '/images/cta-franchising-mugello.jpg',
     label: 'CTA — Paesaggio del Mugello',
-    alt: 'Colline e campi del Mugello al tramonto',
-    focal: '50% 55%',
+    alt: 'Veduta aerea della Fattoria Il Palagiaccio e della valle del Mugello',
+    // in basso: il ritaglio esclude i loghi negli angoli superiori della foto
+    focal: '50% 70%',
     ratio: '21:9',
     minWidth: 2400,
   },
