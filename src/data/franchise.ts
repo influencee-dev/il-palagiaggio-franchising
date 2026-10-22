@@ -30,7 +30,7 @@ export interface Condition extends ReviewNote {
 
 /** Investimento minimo mostrato in hero, CTA finale e altri richiami. */
 export const startingInvestment = {
-  value: '€55.000',
+  value: '€70.000',
   needsReview: true,
   reviewNote:
     'Le fasce di investimento escludono i lavori edili: verificare quali voci siano comprese (fee, prima fornitura, attrezzature).',

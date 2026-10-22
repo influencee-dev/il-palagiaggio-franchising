@@ -37,10 +37,16 @@ export const ctas = {
 /* 01 — HERO ------------------------------------------------------------- */
 export const hero = {
   label: 'Il Palagiaccio Franchising',
-  kicker: 'Dal 1100, la bontà del Mugello. Oggi, una nuova opportunità di impresa.',
-  /** H1: "Apri la tua Bottega Il Palagiaccio." (la seconda parte è evidenziata in bordeaux) */
+  kicker: "A partire dall'XI secolo, le bontà del Mugello.",
+  /** H1: "Apri la tua Bottega Toscana." (la seconda parte è evidenziata in bordeaux) */
   title: 'Apri la tua',
-  titleAccent: 'Bottega Il\u00a0Palagiaccio.',
+  titleAccent: 'Bottega Toscana.',
+  /** Fatti chiave sotto la hero */
+  facts: [
+    { k: "Dall'XI secolo", v: 'Mugello, Toscana' },
+    { k: 'Filiera produttiva interna', v: 'Dal latte alla vendita in bottega' },
+    { k: 'Format flessibile', v: 'A partire da 40 mq' },
+  ],
   paragraphs: [
     'Entra nel settore della gastronomia premium con un marchio storico toscano, una filiera produttiva interna e un modello di business che unisce vendita di prodotti tipici, specialità gastronomiche e degustazioni.',
     "Un format pensato per portare nelle città italiane l'autenticità del Mugello, attraverso botteghe moderne, riconoscibili e organizzate per una gestione efficiente.",

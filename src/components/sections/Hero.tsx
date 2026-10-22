@@ -1,5 +1,5 @@
 import { ctas, hero } from '../../data/content';
-import { formats, startingInvestment } from '../../data/franchise';
+import { startingInvestment } from '../../data/franchise';
 import { ButtonLink } from '../ui/Button';
 import { ArrowDown } from '../ui/Icons';
 import { ImageSlot } from '../ui/ImageSlot';
@@ -7,11 +7,7 @@ import { ReviewFlag } from '../ui/ReviewFlag';
 import { stagger } from '../../lib/stagger';
 
 export function Hero() {
-  const facts = [
-    { k: 'Dal 1100', v: 'Mugello, Toscana' },
-    { k: 'Filiera produttiva interna', v: 'Dal latte alla vendita in bottega' },
-    { k: 'Due configurazioni', v: formats.map((f) => f.surface).join(' · ') },
-  ];
+  const facts = hero.facts;
 
   return (
     <section id="top" aria-labelledby="hero-title" className="relative bg-white pt-[4.75rem] lg:pt-24">
