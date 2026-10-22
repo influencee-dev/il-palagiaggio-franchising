@@ -58,14 +58,14 @@ export const hero = {
 /* 02 — STORIA ----------------------------------------------------------- */
 export const story = {
   label: 'La storia',
-  title: 'Una storia dal 1100. Un business per il futuro.',
+  title: "Una storia dall'XI secolo. Un business per il futuro.",
   kicker: 'Dal cuore della Toscana nasce un nuovo modo di fare impresa nel food.',
-  year: '1100',
+  year: 'XI',
   paragraphs: [
     "A nord di Firenze si estende il Mugello, una delle vallate più caratteristiche della Toscana. Terra d'origine della famiglia Medici e luogo natale di grandi artisti come Giotto e Beato Angelico, è un territorio nel quale storia, cultura e tradizione agricola convivono da secoli.",
-    'Proprio qui, nel 1100, affondano le radici della Fattoria Il Palagiaccio.',
+    'Proprio qui affondano le radici della storica Fattoria Il Palagiaccio.',
     "Da questa storia secolare è nata un'azienda che ha saputo evolversi, investendo nella produzione, nella trasformazione e nella vendita diretta dei propri prodotti.",
-    'Oggi Il Palagiaccio dispone di una filiera interna completa, dal latte alla lavorazione casearia, fino alla distribuzione e alla vendita nelle proprie botteghe.',
+    "Oggi la storica fattoria Il Palagiaccio dispone di una filiera interna completa, dall'allevamento, al latte, carne, alla lavorazione casearia e alla vendita nelle proprie botteghe.",
     "Una storia autentica, una competenza produttiva consolidata e un'identità territoriale distintiva costituiscono le fondamenta del nuovo progetto franchising.",
   ],
   closing: "Il nostro obiettivo è semplice: portare l'eccellenza gastronomica del Mugello in tutta Italia, una bottega alla volta.",
@@ -78,7 +78,7 @@ export const format = {
   label: 'Il format',
   title: "Non una semplice bottega. Un'esperienza gastronomica toscana.",
   paragraphs: [
-    "La Bottega Il Palagiaccio è un format retail che combina la vendita di prodotti alimentari premium con un'esperienza di degustazione pensata per valorizzare l'assortimento e creare nuove occasioni di consumo.",
+    "La Bottega Toscana della storica fattoria Il Palagiaccio è un format retail che combina la vendita di prodotti alimentari premium con un'esperienza di degustazione pensata per valorizzare l'assortimento e creare nuove occasioni di consumo.",
     "Un ambiente caldo e contemporaneo, nel quale il banco formaggi e salumi rappresenta il cuore dell'attività, affiancato da prodotti gastronomici selezionati, specialità toscane e proposte regalo.",
   ],
   intro: 'Il modello integra tre opportunità commerciali:',
@@ -109,12 +109,12 @@ export const format = {
 
 /* 04 — PERCHÉ SCEGLIERE -------------------------------------------------- */
 export const advantages = {
-  label: 'Perché scegliere Il Palagiaccio?',
+  label: 'Perché aprire con noi',
   title: 'Un progetto imprenditoriale che parte da vantaggi concreti.',
   items: [
     {
-      title: 'Una storia autentica dal 1100',
-      text: "Un'identità costruita attraverso secoli di tradizione agricola e casearia nel Mugello, capace di distinguere il marchio dalle proposte gastronomiche più generiche.",
+      title: 'Una storia autentica',
+      text: "Un'identità costruita attraverso secoli di tradizione agroalimentare e casearia nel Mugello, capace di distinguere il marchio dalle proposte gastronomiche più generiche.",
     },
     {
       title: 'Una filiera produttiva interna',
@@ -122,11 +122,11 @@ export const advantages = {
     },
     {
       title: 'Prodotti distintivi e riconoscibili',
-      text: 'Fior di Mugello, Gran Mugello, Blu Mugello e altre specialità rappresentano il cuore di un assortimento selezionato, progettato per valorizzare qualità, provenienza e identità del brand.',
+      text: 'Gran Mugello, Blu Mugello, Fior di Mugello e altre specialità rappresentano il cuore di un assortimento selezionato, progettato per valorizzare qualità, provenienza e identità del brand.',
     },
     {
       title: 'Un modello già sperimentato nella vendita diretta',
-      text: "Il progetto franchising nasce dall'esperienza maturata nella gestione dei punti vendita esistenti, con l'obiettivo di trasferire procedure, competenze e strumenti operativi ai nuovi affiliati.",
+      text: "Il progetto franchising nasce dall'esperienza maturata nella gestione dei propri punti vendita esistenti, con l'obiettivo di trasferire procedure, competenze e strumenti operativi ai nuovi affiliati.",
     },
     {
       title: 'Un format organizzato per essere replicabile',
@@ -157,7 +157,7 @@ export const products = {
   ],
   /** Specialità citate nel documento (sezione "Perché scegliere"). */
   signatureLabel: 'Le specialità del marchio',
-  signatures: ['Fior di Mugello', 'Gran Mugello', 'Blu Mugello'],
+  signatures: ['Gran Mugello', 'Blu Mugello', 'Fior di Mugello'],
   signatureNote: 'e altre specialità',
   sourcingTitle: 'Modello di approvvigionamento indicativo',
   sourcingText:
