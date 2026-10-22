@@ -24,27 +24,24 @@ export function Opportunity() {
           </p>
         </div>
 
-        {/* Due configurazioni a confronto */}
-        <div className="mt-16 grid gap-6 md:grid-cols-2 md:gap-0 lg:mt-20">
+        {/* Offerta franchising: immagine affiancata ai dati economici */}
+        <div className="mt-16 grid gap-6 lg:mt-20">
           {formats.map((f, i) => (
             <article
               key={f.id}
               aria-labelledby={`format-${f.id}`}
-              className={`group flex flex-col border border-hairline ${
-                i === 1 ? 'bg-cream md:border-l-0' : 'bg-white'
-              }`}
+              className="group grid border border-hairline bg-white md:grid-cols-2"
             >
               <ImageSlot
                 image={f.imageKey}
                 index={i}
                 hover
-                sizes="(min-width: 768px) 45vw, 100vw"
-                className="aspect-[16/9]"
+                sizes="(min-width: 768px) 50vw, 100vw"
+                className="aspect-[16/9] md:aspect-auto md:h-full md:min-h-[26rem]"
               />
-              <div className="flex flex-1 flex-col p-7 sm:p-10 lg:p-12">
+              <div className="flex flex-1 flex-col p-7 sm:p-10 lg:p-14">
                 <div data-reveal style={stagger(i)}>
-                  <p className="t-label text-gold-deep">Configurazione {String(i + 1).padStart(2, '0')}</p>
-                  <h3 id={`format-${f.id}`} className="t-h3 mt-3 text-ink">
+                  <h3 id={`format-${f.id}`} className="t-h3 text-ink">
                     {f.name}
                   </h3>
                 </div>
@@ -61,10 +58,12 @@ export function Opportunity() {
                     <dt className="t-label text-muted">{formatLabels.surface}</dt>
                     <dd className="t-figure mt-3 text-[clamp(1.5rem,1.3rem+0.8vw,2rem)] text-ink">{f.surface}</dd>
                   </div>
-                  <div data-reveal style={stagger(i + 3)} className="mt-auto border-t border-hairline-warm pt-6">
-                    <dt className="t-label text-muted">{formatLabels.concept}</dt>
-                    <dd className="mt-3 font-serif text-lg italic leading-snug text-ink">{f.concept}</dd>
-                  </div>
+                  {f.concept && (
+                    <div data-reveal style={stagger(i + 3)} className="mt-auto border-t border-hairline-warm pt-6">
+                      <dt className="t-label text-muted">{formatLabels.concept}</dt>
+                      <dd className="mt-3 font-serif text-lg italic leading-snug text-ink">{f.concept}</dd>
+                    </div>
+                  )}
                 </dl>
               </div>
             </article>

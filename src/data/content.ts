@@ -144,7 +144,7 @@ export const products = {
   label: 'I prodotti',
   title: 'Il Mugello è il nostro territorio. La qualità è il nostro prodotto.',
   intro:
-    "Il cuore della Bottega Il Palagiaccio è un assortimento selezionato di circa 150 referenze, organizzato per valorizzare i prodotti distintivi del marchio e semplificare la gestione commerciale.",
+    "Il cuore della Bottega Toscana della storica fattoria Il Palagiaccio è un assortimento selezionato di circa 150 referenze, organizzato per valorizzare i prodotti distintivi del marchio e semplificare la gestione commerciale.",
   referencesLabel: 'referenze in assortimento',
   listTitle: "L'offerta comprende:",
   categories: [
@@ -218,8 +218,8 @@ export const audience = {
   label: 'A chi ci rivolgiamo',
   title: 'Cerchiamo imprenditori che condividano la nostra idea di qualità.',
   paragraphs: [
-    "Il Palagiaccio Franchising si rivolge a persone interessate a sviluppare un'attività commerciale nel settore alimentare, valorizzando prodotti distintivi, servizio al cliente e attenzione alla gestione.",
-    "Non è indispensabile provenire dal settore caseario. Sono invece importanti l'attitudine commerciale, la capacità organizzativa e la disponibilità a seguire direttamente o attraverso personale qualificato le attività della bottega.",
+    "Il franchising della Bottega Toscana della fattoria storica Il Palagiaccio si rivolge a persone interessate a sviluppare un'attività commerciale nel settore alimentare, valorizzando prodotti distintivi, servizio al cliente e attenzione alla gestione.",
+    "Non è indispensabile provenire dal settore agroalimentare. Sono invece importanti l'attitudine commerciale, la capacità organizzativa e la disponibilità a seguire direttamente o attraverso personale qualificato le attività della bottega.",
   ],
   listTitle: 'Il candidato ideale:',
   traits: [
@@ -272,7 +272,7 @@ export const journey = {
 export const contact = {
   label: 'Contatti',
   title: 'Porta il Mugello nella tua città.',
-  subtitle: 'Apri la tua Bottega Il Palagiaccio.',
+  subtitle: 'Apri la tua Bottega Toscana della storica fattoria Il Palagiaccio.',
   text: 'Un marchio con una storia secolare, prodotti distintivi, una filiera produttiva interna e un format commerciale pensato per crescere attraverso una rete di imprenditori.',
   investmentLabel: 'Investimento a partire da',
   invite:
@@ -312,7 +312,7 @@ export const contact = {
 /* 11 — FOOTER ----------------------------------------------------------- */
 export const footer = {
   title: 'Il Palagiaccio — Bontà dal Mugello',
-  text: 'Dal 1100, una storia di territorio, tradizione e qualità. Oggi, un progetto imprenditoriale da condividere.',
+  text: "Dall'XI secolo, una storia di territorio, tradizione e qualità. Oggi, un progetto imprenditoriale da condividere.",
   officialSite: 'Sito ufficiale',
   privacy: 'Privacy',
   franchising: 'Franchising',

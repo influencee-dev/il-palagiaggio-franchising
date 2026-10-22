@@ -61,24 +61,6 @@ export function Products() {
           </div>
         </div>
 
-        {/* Specialità del marchio */}
-        <div data-reveal className="mt-24 border-y border-hairline-warm py-10 text-center lg:mt-32">
-          <p className="t-label text-gold-deep">{products.signatureLabel}</p>
-          <ul className="mt-5 flex flex-col items-center gap-y-1 font-serif text-[clamp(1.625rem,1.1rem+1.8vw,2.75rem)] italic leading-tight text-ink sm:flex-row sm:flex-wrap sm:justify-center">
-            {products.signatures.map((name, i) => (
-              <li key={name} className="flex items-center">
-                {i > 0 && (
-                  <span className="mx-5 hidden text-gold sm:inline" aria-hidden="true">
-                    ·
-                  </span>
-                )}
-                {name}
-              </li>
-            ))}
-          </ul>
-          <p className="mt-3 text-sm text-muted">{products.signatureNote}</p>
-        </div>
-
         {/* Offerta + approvvigionamento */}
         <div className="mt-20 grid gap-16 lg:mt-28 lg:grid-cols-12 lg:gap-8">
           <div className="lg:col-span-6">

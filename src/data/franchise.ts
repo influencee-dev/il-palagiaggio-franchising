@@ -15,11 +15,12 @@ export interface ReviewNote {
 }
 
 export interface FormatOption extends ReviewNote {
-  id: 'ridotto' | 'standard';
+  id: string;
   name: string;
   investment: string;
   surface: string;
-  concept: string;
+  /** Facoltativo: se assente la riga "Concept" non viene mostrata. */
+  concept?: string;
   imageKey: 'formatCompact' | 'formatStandard';
 }
 
@@ -38,22 +39,11 @@ export const startingInvestment = {
 
 export const formats: FormatOption[] = [
   {
-    id: 'ridotto',
-    name: 'Format ridotto',
-    investment: '€55.000 – €75.000',
-    surface: '50–70 mq',
-    concept: 'Bottega gastronomica compatta',
+    id: 'offerta',
+    name: 'Offerta Franchising',
+    investment: '€1.300/mq',
+    surface: 'a partire da 40 mq',
     imageKey: 'formatCompact',
-    needsReview: true,
-    reviewNote: startingInvestment.reviewNote,
-  },
-  {
-    id: 'standard',
-    name: 'Format standard',
-    investment: '€85.000 – €110.000',
-    surface: '90–120 mq',
-    concept: 'Bottega con maggiore spazio per vendita e degustazioni',
-    imageKey: 'formatStandard',
     needsReview: true,
     reviewNote: startingInvestment.reviewNote,
   },
@@ -73,7 +63,7 @@ const feeReview =
 
 export const conditions: Condition[] = [
   { label: "Fee d'ingresso", value: '€10.000', needsReview: true, reviewNote: feeReview },
-  { label: 'Royalty', value: 'dal 2% al 3% del fatturato', needsReview: true, reviewNote: feeReview },
+  { label: 'Royalty', value: '3% del fatturato', needsReview: true, reviewNote: feeReview },
   { label: 'Contributo marketing', value: '€600 al mese', needsReview: true, reviewNote: feeReview },
   { label: 'Durata contrattuale', value: '6 anni, rinnovabili', needsReview: false },
   { label: 'Bacino di riferimento', value: 'a partire da 20.000 abitanti', needsReview: false },
