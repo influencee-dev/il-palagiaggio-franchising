@@ -78,7 +78,7 @@ export const format = {
   label: 'Il format',
   title: "Non una semplice bottega. Un'esperienza gastronomica toscana.",
   paragraphs: [
-    "La Bottega Toscana della storica fattoria Il Palagiaccio è un format retail che combina la vendita di prodotti alimentari premium con un'esperienza di degustazione pensata per valorizzare l'assortimento e creare nuove occasioni di consumo.",
+    "La Bottega Toscana della Storica Fattoria Il Palagiaccio è un format retail che combina la vendita di prodotti alimentari premium con un'esperienza di degustazione pensata per valorizzare l'assortimento e creare nuove occasioni di consumo.",
     "Un ambiente caldo e contemporaneo, nel quale il banco formaggi e salumi rappresenta il cuore dell'attività, affiancato da prodotti gastronomici selezionati, specialità toscane e proposte regalo.",
   ],
   intro: 'Il modello integra tre opportunità commerciali:',
@@ -144,7 +144,7 @@ export const products = {
   label: 'I prodotti',
   title: 'Il Mugello è il nostro territorio. La qualità è il nostro prodotto.',
   intro:
-    "Il cuore della Bottega Toscana della storica fattoria Il Palagiaccio è un assortimento selezionato di circa 150 referenze, organizzato per valorizzare i prodotti distintivi del marchio e semplificare la gestione commerciale.",
+    "Il cuore della Bottega Toscana della Storica Fattoria Il Palagiaccio è un assortimento selezionato di circa 150 referenze, organizzato per valorizzare i prodotti distintivi del marchio e semplificare la gestione commerciale.",
   referencesLabel: 'referenze in assortimento',
   listTitle: "L'offerta comprende:",
   categories: [
@@ -170,9 +170,9 @@ export const products = {
 /* 06 — OPPORTUNITÀ ------------------------------------------------------ */
 export const opportunity = {
   label: "L'opportunità franchising",
-  title: 'Quanto costa aprire una Bottega Il Palagiaccio?',
+  title: 'Quanto costa aprire una Bottega Toscana Il Palagiaccio?',
   intro:
-    'Il progetto prevede due configurazioni, pensate per adattarsi a differenti disponibilità di spazio e capacità di investimento.',
+    'Il progetto prevede configurazioni pensate per adattarsi a differenti disponibilità di spazio e capacità di investimento.',
   conditionsTitle: 'Le condizioni di affiliazione',
   conditionsClosing:
     "Un'offerta strutturata per consentire al candidato di valutare fin dalle prime fasi l'impegno economico e organizzativo richiesto.",
@@ -183,11 +183,11 @@ export const support = {
   label: 'Il supporto della Casa Madre',
   title: 'La tua impresa. La nostra esperienza al tuo fianco.',
   intro:
-    "Aprire una Bottega Il Palagiaccio significa entrare in un sistema organizzato, nel quale la Casa Madre mette a disposizione strumenti, competenze e servizi per accompagnare l'affiliato dall'avvio alla gestione ordinaria.",
+    "Aprire una Bottega Toscana Il Palagiaccio significa entrare in un sistema organizzato, nel quale la Casa Madre mette a disposizione strumenti, competenze e servizi per accompagnare l'affiliato dall'avvio alla gestione ordinaria.",
   services: [
     {
       title: 'Progettazione del punto vendita',
-      text: "Supporto nella definizione del layout, dell'organizzazione degli spazi, degli arredi e dell'immagine coordinata della bottega.",
+      text: "Supporto nella definizione del layout, dell'organizzazione degli spazi, degli arredi e dell'immagine coordinata e standardizzata della bottega.",
     },
     {
       title: 'Formazione iniziale',
@@ -272,11 +272,11 @@ export const journey = {
 export const contact = {
   label: 'Contatti',
   title: 'Porta il Mugello nella tua città.',
-  subtitle: 'Apri la tua Bottega Toscana della storica fattoria Il Palagiaccio.',
+  subtitle: 'Apri la tua Bottega Toscana della Storica Fattoria Il Palagiaccio.',
   text: 'Un marchio con una storia secolare, prodotti distintivi, una filiera produttiva interna e un format commerciale pensato per crescere attraverso una rete di imprenditori.',
   investmentLabel: 'Investimento a partire da',
   invite:
-    'Compila il modulo per ricevere maggiori informazioni sul progetto franchising, conoscere le condizioni di affiliazione e valutare insieme al nostro team la possibilità di aprire una Bottega Il Palagiaccio.',
+    'Compila il modulo per ricevere maggiori informazioni sul progetto franchising, conoscere le condizioni di affiliazione e valutare insieme al nostro team la possibilità di aprire una Bottega Toscana Il Palagiaccio.',
   formTitle: 'Modulo di contatto',
   fields: {
     name: 'Nome e cognome',
