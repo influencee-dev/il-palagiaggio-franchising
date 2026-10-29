@@ -63,9 +63,9 @@ export const story = {
   year: 'XI',
   paragraphs: [
     "A nord di Firenze si estende il Mugello, una delle vallate più caratteristiche della Toscana. Terra d'origine della famiglia Medici e luogo natale di grandi artisti come Giotto e Beato Angelico, è un territorio nel quale storia, cultura e tradizione agricola convivono da secoli.",
-    'Proprio qui affondano le radici della storica Fattoria Il Palagiaccio.',
+    'Proprio qui affondano le radici della Storica Fattoria Il Palagiaccio.',
     "Da questa storia secolare è nata un'azienda che ha saputo evolversi, investendo nella produzione, nella trasformazione e nella vendita diretta dei propri prodotti.",
-    "Oggi la storica fattoria Il Palagiaccio dispone di una filiera interna completa, dall'allevamento, al latte, carne, alla lavorazione casearia e alla vendita nelle proprie botteghe.",
+    "Oggi la Storica Fattoria Il Palagiaccio dispone di una filiera interna completa, dall'allevamento, al latte, alla carne, alla lavorazione casearia e alla vendita nelle proprie botteghe.",
     "Una storia autentica, una competenza produttiva consolidata e un'identità territoriale distintiva costituiscono le fondamenta del nuovo progetto franchising.",
   ],
   closing: "Il nostro obiettivo è semplice: portare l'eccellenza gastronomica del Mugello in tutta Italia, una bottega alla volta.",
